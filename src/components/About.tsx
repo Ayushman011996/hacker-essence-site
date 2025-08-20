@@ -85,6 +85,15 @@ ${aboutData.currentlyLearning.map(tech => `    "${tech}"`).join(',\n')}
             </div>
           </div>
         </div>
+
+        <div className="text-center mt-12">
+          <a
+            href="/about"
+            className="inline-flex items-center gap-2 px-8 py-3 border border-primary text-primary font-mono font-medium rounded-lg hover:bg-primary/10 hover:shadow-glow-primary transition-all duration-300 hover:-translate-y-1"
+          >
+            Read More
+          </a>
+        </div>
       </div>
     </section>
   );
