@@ -1,22 +1,24 @@
 const About = () => {
   const aboutData = {
-    name: "Rohan Rayakar",
+    name: "Ramachandra Manjunath Rayakar",
     role: "Computer Science Student",
-    university: "Your University",
-    year: "Junior",
+    university: "RV College of Engineering, Bengaluru",
+    year: "3rd Year",
     interests: [
       "Full-Stack Development",
       "Machine Learning",
-      "Software Engineering",
-      "Open Source"
+      "Computer Vision",
+      "Competitive Programming",
+      "AI/ML Applications"
     ],
     currentlyLearning: [
-      "React/TypeScript",
-      "Node.js",
-      "Python",
+      "React/Next.js",
+      "Node.js/Express.js",
+      "Python/JavaScript",
+      "YOLOv5",
       "Data Structures & Algorithms"
     ],
-    bio: "Passionate CS student with a love for clean code and innovative solutions. Always eager to learn new technologies and contribute to meaningful projects."
+    bio: "CS Engineering student at RVCE with 8.99 CGPA, passionate about building innovative web platforms and AI/ML solutions. Winner of Web 3.0 Hackathon and active competitive programmer."
   };
 
   return (

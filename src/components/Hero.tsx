@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Name with gradient */}
           <h1 className="text-6xl md:text-8xl font-mono font-bold mb-6 text-gradient animate-fade-up">
-            Rohan Rayakar
+            Ramachandra Manjunath Rayakar
           </h1>
           
           {/* Role */}
@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="text-lg md:text-xl text-foreground font-mono mb-12 animate-fade-up [animation-delay:0.4s] opacity-0 animate-[fade-up_0.8s_ease-out_0.4s_both]">
             <span className="text-muted-foreground">{">"} </span>
             <TypingAnimation 
-              text="Building the future, one line of code at a time."
+              text="Building innovative solutions with cutting-edge technology."
               speed={80}
               delay={1000}
               className="text-foreground"

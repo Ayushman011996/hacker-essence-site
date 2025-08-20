@@ -16,7 +16,7 @@ const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const { toast } = useToast();
 
-  const email = 'rohan.rayakar@example.com'; // Replace with actual email
+  const email = 'rmraikar777@gmail.com';
 
   const socialLinks = [
     {
@@ -36,9 +36,9 @@ const Contact = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/in/rohanrayakar',
+      url: 'https://linkedin.com/in/ramachandramr',
       color: 'text-secondary',
-      handle: '/in/rohanrayakar'
+      handle: '/in/ramachandramr'
     }
   ];
 
@@ -120,10 +120,16 @@ const Contact = () => {
   "preferred_contact": "email",
   "currently_seeking": [
     "internships",
-    "entry_level_positions",
+    "full_time_opportunities",
     "collaboration_projects"
   ],
-  "timezone": "EST"
+  "phone": "+919964975545",
+  "location": "Bengaluru, Karnataka, India",
+  "coding_profiles": {
+    "geeksforgeeks": "rmraiknww2",
+    "leetcode": "ramachandramr"
+  },
+  "timezone": "IST"
 }`}
                 </code>
               </pre>

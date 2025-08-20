@@ -30,38 +30,58 @@ const Resume = () => {
       title: "Education",
       items: [
         {
-          title: "Bachelor of Science in Computer Science",
-          subtitle: "Your University Name",
+          title: "B.E in Computer Science & Engineering",
+          subtitle: "RV College of Engineering, Bengaluru",
           duration: "2022 - 2026",
           details: [
-            "Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Engineering",
-            "GPA: 3.8/4.0",
-            "Dean's List: Fall 2023, Spring 2024"
+            "Current CGPA: 8.99/10.0",
+            "Relevant Coursework: Data Structures & Algorithms, Object-Oriented Programming, Real-Time Systems",
+            "Focus Areas: Web Development, Machine Learning, Computer Vision"
+          ]
+        },
+        {
+          title: "Karnataka Secondary Education - Class XII",
+          subtitle: "SAI NIKETAN PU Science College, MUDHOL",
+          duration: "2020 - 2022",
+          details: [
+            "Percentage: 96.16%",
+            "Science Stream with Mathematics",
+            "Secured 616th rank in KCET 2022"
           ]
         }
       ]
     },
     {
-      title: "Experience",
+      title: "Projects",
       items: [
         {
-          title: "Software Development Intern",
-          subtitle: "Company Name",
-          duration: "Summer 2024",
+          title: "Prep Sutra - Competitive Exam Preparation Platform",
+          duration: "Full-Stack Web Application",
           details: [
-            "Developed full-stack web applications using React and Node.js",
-            "Collaborated with cross-functional teams in an Agile environment",
-            "Implemented automated testing strategies improving code coverage by 40%"
+            "Built comprehensive platform for competitive exam preparation with study planner and PYQ analyzer",
+            "Implemented AI/ML features for article summarization and essay generation",
+            "Added user authentication, progress tracking, and personalized content recommendations",
+            "Designed responsive UI for accessibility across all devices"
           ]
         },
         {
-          title: "Teaching Assistant",
-          subtitle: "University CS Department",
-          duration: "Fall 2023 - Present",
+          title: "The Makers Market - Local Artisan Marketplace",
+          duration: "E-commerce Platform",
           details: [
-            "Assist students in CS fundamentals and programming concepts",
-            "Lead weekly lab sessions for 30+ students",
-            "Grade assignments and provide constructive feedback"
+            "Developed online marketplace for artisans with role-based access control",
+            "Built comprehensive features: product listing, cart management, crowdfunding, order tracking",
+            "Integrated multiple payment gateways (PhonePe, Stripe, PayPal) with Google Maps",
+            "Created admin dashboard for user, product, and order management"
+          ]
+        },
+        {
+          title: "Real-Time Traffic Sign Detection System",
+          duration: "Computer Vision Project",
+          details: [
+            "Implemented YOLOv5-based real-time traffic sign detection with high accuracy",
+            "Applied Non-Maximum Suppression for optimized object detection",
+            "Processed live video streams with annotated training data",
+            "Designed for integration with autonomous vehicle systems"
           ]
         }
       ]
@@ -72,16 +92,24 @@ const Resume = () => {
         {
           title: "Programming Languages",
           details: [
-            "JavaScript/TypeScript, Python, Java, C++",
-            "HTML5, CSS3, SQL, Bash"
+            "C, C++, Java, Python, JavaScript, SQL",
+            "Strong foundation in Object-Oriented Programming"
           ]
         },
         {
-          title: "Frameworks & Technologies",
+          title: "Web Development",
           details: [
-            "React, Node.js, Express, Django",
-            "MongoDB, PostgreSQL, MySQL",
-            "Git, Docker, AWS, Vercel"
+            "Frontend: HTML5, CSS3, Next.js, Tailwind CSS",
+            "Backend: Node.js, Express.js",
+            "Databases: MySQL, MongoDB, PostgreSQL, Drizzle ORM"
+          ]
+        },
+        {
+          title: "AI/ML & Specialized Tools",
+          details: [
+            "Machine Learning, Computer Vision, Image Processing, Data Preprocessing",
+            "YOLOv5, LLVM, Graphviz",
+            "Git, GitHub, VS Code, Vercel, WSL"
           ]
         }
       ]
@@ -90,18 +118,19 @@ const Resume = () => {
       title: "Achievements",
       items: [
         {
-          title: "Hackathon Winner",
-          subtitle: "University Hackathon 2024",
+          title: "Web 3.0 Online Hackathon Winner",
+          subtitle: "Apogee '25 BITS Pilani - Revved-Up Rhapsody",
           details: [
-            "1st place for developing an AI-powered study assistant",
-            "Led a team of 4 developers over 48 hours"
+            "Won hackathon organized by Birla Institute of Technology Science, Pilani",
+            "Demonstrated excellence in Web 3.0 technologies and innovation"
           ]
         },
         {
-          title: "Open Source Contributions",
+          title: "Academic Excellence",
           details: [
-            "Contributed to 5+ open source projects on GitHub",
-            "Maintained personal projects with 100+ stars combined"
+            "Secured 616th rank in KCET 2022",
+            "Maintaining 8.99 CGPA in Computer Science Engineering",
+            "Active on coding platforms: GeeksforGeeks (rmraiknww2), LeetCode (ramachandramr)"
           ]
         }
       ]
